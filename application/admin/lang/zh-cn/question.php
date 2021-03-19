@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'Name'         => '姓名',
+    'Tel'          => '电话',
+    'One'          => '第一题',
+    'Two'          => '第二题',
+    'Three'        => '第三题',
+    'Four'         => '第四题',
+    'Five'         => '第五题',
+    'Six'          => '第六题',
+    'Seven'        => '第七题',
+    'Eight'        => '第八题',
+    'Nine'         => '第九题',
+    'Ten'          => '第十题',
+    'Eleven'       => '第十一题',
+    'Twelve'       => '第十二题',
+    'Thirteen'     => '第十三题',
+    'Fourteen'     => '第十四题',
+    'Fifteen'      => '第十五题',
+    'Sixteen'      => '第十六题',
+    'Seventeen'    => '第十七题',
+    'Eighteen'     => '第十八题',
+    'Nineteen'     => '第十九题',
+    'Twenty'       => '第二十题',
+    'Twenty_one'   => '第二十一题',
+    'Twenty_two'   => '第二十二题',
+    'Twenty_three' => '第二十三题',
+    'Images'       => '图片',
+    'Add_time'     => '提交时间'
+];

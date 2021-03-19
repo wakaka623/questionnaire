@@ -1,0 +1,651 @@
+---------------------------------------------------------------
+[ 2021-03-16T15:23:57+08:00 ] 127.0.0.1 POST localhost/index.php/?s=question/questionanswer/putQuestion
+[ error ] [8]未定义数组索引: autograph
+---------------------------------------------------------------
+[ 2021-03-16T15:24:01+08:00 ] 127.0.0.1 POST localhost/index.php/?s=question/questionanswer/putQuestion
+[ error ] [8]未定义数组索引: autograph
+---------------------------------------------------------------
+[ 2021-03-16T15:24:26+08:00 ] 127.0.0.1 POST localhost/index.php/?s=question/questionanswer/putQuestion
+[运行时间：0.092000s] [吞吐率：10.87req/s] [内存消耗：2,554.11kb] [文件加载：118]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\315\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001000s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'question',
+    1 => 'questionanswer',
+    2 => 'putQuestion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'accept' => '*/*',
+  'postman-token' => '5eb04198-ad8b-4b52-a5a3-c88bc2c8c5fb',
+  'host' => 'localhost',
+  'accept-encoding' => 'gzip, deflate, br',
+  'connection' => 'keep-alive',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '6',
+)
+[ info ] [ PARAM ] array (
+  'param' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ RUN ] app\question\controller\questionanswer->putQuestion[ C:\Users\Administrator\Desktop\315\questionnaire\application\question\controller\Questionanswer.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: autograph[C:\Users\Administrator\Desktop\315\questionnaire\application\question\controller\Questionanswer.php:20]
+---------------------------------------------------------------
+[ 2021-03-16T15:27:51+08:00 ] 127.0.0.1 POST localhost/index.php/?s=question/questionanswer/putQuestion
+[运行时间：0.494000s] [吞吐率：2.02req/s] [内存消耗：3,614.84kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\315\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001000s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'question',
+    1 => 'questionanswer',
+    2 => 'putQuestion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '10112',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'origin' => 'http://192.168.1.13:8080',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://192.168.1.13:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh-TW;q=0.9,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '我的',
+  'tel' => '15260032565',
+  'answers' => 
+  array (
+    0 => '生产经营所得',
+    1 => '20万-70万元（不含）人民币',
+    2 => '50-70%',
+    3 => '有，住房抵押贷款等长期定额债务',
+    4 => '100万-300万元（不含）人民币',
+    5 => '已取得金融、经济或财会等与金融产品投资相关专业学士以上学位',
+    6 => '丰富：对证券期货产品及相关风险具有丰富的知识和理解',
+    7 => '除银行活期和定期存款外，我购买过基金、保险等理财产品，但还需要进一步的指导',
+    8 => '正常',
+    9 => '6至10个',
+    10 => '股票、混合型基金、偏股型基金、股票型基金等权益类投资品种等,复杂金融产品、其它产品或服务',
+    11 => '30万元-100万元',
+    12 => '10年以上',
+    13 => '无特别要求',
+    14 => '期货,其他产品或服务',
+    15 => '大部分投资于B',
+    16 => '实现资产大幅增长，愿意承担很大的投资风险',
+    17 => '尽可能保证本金安全',
+    18 => '偿付债务',
+    19 => '41-50岁',
+    20 => '5人以上',
+    21 => '大学本科',
+    22 => '有配偶，其中一人有稳定收入的工作',
+  ),
+  'autograph' => 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVgAAADwCAYAAABFVHx3AAARhklEQVR4Xu3dS+htVR0H8J9R1MCyZlGEFSJhA20WFZgQZEFlA+kxKB1FDVJpHCU0t6AmEZWDCpyoReAgUAdRjdJRDwgqmkQFBr2EqPjp3nQ8nvM/e5+z19qP9dnw53rv3Wc9Pmv5vfus/bombAQIECBQROCaIqUqlAABAgRCwJoEBAgQKCQgYAvBKpYAAQIC1hwgQIBAIQEBWwhWsQQIEBCw5gABAgQKCQjYQrCKJUCAgIA1BwgQIFBIQMAWglUsAQIEBKw5QIAAgUICArYQrGIJECAgYM0BAgQIFBIQsIVgFUuAAAEBaw4QIECgkICALQSrWAIECAhYc4AAAQKFBARsIVjFEiBAQMCaAwQIECgkIGALwSqWAAECAtYcIECAQCEBAVsIVrEECBAQsOYAAQIECgkI2EKwiiVAgICANQcIECBQSEDAFoJVLAECBASsOUCAAIFCAgK2EKxiCRAgIGDNAQIECBQSELCFYBVLgAABAWsOECBAoJCAgC0Eq1gCBAgIWHOAAAEChQQEbCFYxRIgQEDAmgMECBAoJCBgC8EqlgABAgLWHCBAgEAhAQFbCFaxBAgQELDmAAECBAoJCNhCsIolQICAgDUHCBAgUEhAwBaCVSwBAgQErDlAgACBQgICthCsYgkQICBgzQECBAgUEhCwhWAVS4AAAQFrDhAgQKCQgIAtBKtYAgQICFhzgAABAoUEBGwhWMUSIEBAwJoDBAgQKCQgYAvBKpYAAQIC1hwgQIBAIQEBWwhWsQQIEBCw5gABAgQKCQjYQrCKJUCAgIA1BwgQIFBIQMAWglUsAQIEBKw5QIAAgUICArYQrGIJECAgYM0BAgQIFBIQsIVgFUuAAAEBO2wOvDoivhcRt0fEYxHx6Yj47bCP2osAgVYFBOywkf99RLxhb9cM2Cci4pGIeDIinhlWlL0IEGhFQMCeHum3RMQvTu8WT3WBm6ErcAeA2YXA1gUE7OkRfllE/CsiXnJ61xfskUe4Gbr9z9OWFUYK2p3AygUE7LAB/ElEvH3Yrif3yiPcPnTzSNda7gvJcr37jRFx3UnJ/++Q++fn8mfo1i/p5FiM2f7ajZkloTFqje4rYIcP/Mci4p6IeE1E3Dj8Yyf3/GdE/LFbXtgN2/zv3d/fFBEfjIhXdEsWz3Yl96HS/w9/LGTy7zOI8tfcp99//3P93+WvWf9V5WUTdut/eURkO//btTOP/Pe33P+Wkyrb2CFt82fKf0T7MnfHJ/8s7d8VEX/p/gHf/Qegn0v5Lco/DBXnloA9Dzsn9x3dz7tHHm2dV6NPEZhGII/Y7+v+QZ+mRKUcFRCw00yOPCLLnwzb/PXmaYpVCoFiAnn1y92OaIv5PlewgC3nm2GbX8n78M1fx6wrlmuZkgk8L5DLBR92NFtuOgjYcraHSu4Dtz/SvbVu9Yuv7Xcj1yv7tc1L1zhzXPJn6HbOibihZc+x3+MR8ZGI+NMclW+5TgE7/+jmxP57RPytO9rtTxrt/0+fa2d5gusP3UmM3H+J2w0RcW3Xxv327Z+4W2L7S7Upv8GMucrhnHb09um8eyIx51KeM7jqG9SXIuLz51TqM8cFBKzZQaANgQz3eyPiC0e6+5uIeGd3RUsbIhV6KWArIKuCwIIEcnnq2xFx/YE2fSoivr6gtq6+KQJ29UOoAwRGC+TR7A+662Z3P5w3weSVBZeuaY9u0FY/IGC3OrL6ReC0wPcj4gN7u2XA5hGubQIBATsBoiIIrFTgzoh4aK/teRR720r7s7hmC9jFDYkGEagm8EB34mu3wlyDzbVY2wQCAnYCREUQWKFAnuT6VfcMg93m59FrHsXaJhAQsBMgKoLAygTyJNfPD9xccX9EfHFlfVl0cwXsoodH4whMLpDhmnduHXqimaPXibkF7MSgiiOwYIGrwvXfEZEPl7dNKCBgJ8RUFIEFC1wVrtlsywMFBk/AFkBVJIGFCeSzCB6+4kHnD0bEXQtr8yaaI2A3MYw6QeCoQK615prrsQfN5MO3v8yvjICALeOqVAJLEOgf7iJcZxoNATsTvGoJFBTIr/v51KyrnnHrltiCA9AXLWArIKuCQAWBPEr9ZHdn1qmHhwvXCgOSVQjYStCqIVBIIB8/mME65CRVvnI8lw08zKXQYOwXK2ArQauGwEQCedIqb3P9aETcPuItCfnK7gzhfDOGrZKAgK0ErRoCZwhkmOZ723ZfnDm2mHzPWd7+6qh1rNwE+wvYCRAVQWAigT5Q8/1Z+dX/kk2wXqI30WcF7ESQiiFwpkCGaq6hZqieOjl1qopcY32kO1r1RKxTWhX+XsBWQFYFgT2BDNJ7JgrVLLo/eZXh+gzt5QgI2OWMhZZsWyAvo/pQd6Lpkq//+dU/35mVR6j5a560cuJqoXNHwC50YDRrMwL9EkCewT92R9VVnX2yC9MM1AxSR6grmhoCdkWDpamrEbhkXTUvp8qv+hmo1lFXM+SHGypgVz6Amr8IgTwyzcup+rP/Y09W5df+fOBKBqtXZi9iSKdphICdxlEpbQnsXpua66ljA7U/MZXXpuaPNdSNzh8Bu9GB1a3JBDI8PxcR74mIV0bE6y8sOddUM1Sd8b8Qcg0fF7BrGCVtnEOgvzY1v/ZfuuUSQAZqLgNYArhUc0WfF7ArGixNLS7QX5967hn/3Qbmyao8Uu3P/hdvvAqWJyBglzcmWlRXYKrrUzNQcy21P/vvSLXuOC6yNgG7yGHRqAoCeSlVfzfV2OtT8yt/f4G/61MrDNZaqxCwax057T5XoH8odQbs0C1vRf1RRDwWEd8Y+iH7ERCw5kALAucerfZn/D3qr4VZUqCPArYAqiIXIdC/QiVPWI05Ws2v//31qdZRFzGU622EgF3v2Gn5YYFzj1Yf3bk+lS2BSQQE7CSMCplZoL8SIJ/cP+auKkerMw/c1qsXsFsf4W33L8M0X0+dNwOMuRIgj1b7B1NvW0jvZhUQsLPyq/xMgf4tqmOeq+po9UxsHztfQMCeb+eTdQXOvcsqj1bzFlWP/qs7XmqLCAFrGixdII9S+xsChrbV0epQKfsVFRCwRXkVfoFALgOMPWnlSoALwH10egEBO72pEs8XyGWA/k6roSet8i6rvG7Vk6rOd/fJQgICthCsYkcJ9FcD5E0BQzd3WQ2Vst9sAgJ2NnoVR0Sur+ZlVmOuBniwWzpwl5UptHgBAbv4IdpkA8cGa//OqlwK8FbVTU6JbXZKwG5zXJfaq7EnriwDLHUktWuQgIAdxGSnCwXGBmsuA/RvA7iwah8nMJ+AgJ3PvoWaxwRrXg2Qt6/mpVnWV1uYHQ30UcA2MMgzdHFssOYlVvljfXWGwVJlOQEBW862xZLHBKsTVy3OkMb6LGAbG/BC3R0brLkM4C0BhQZDscsRELDLGYs1tkSwrnHUtLmagICtRr2pigTrpoZTZ0oJCNhSstssd8wNArnGailgm/NArwYKCNiBUI3vJlgbnwC6f56AgD3PrZVPCdZWRlo/iwgI2CKsqy9UsK5+CHVgCQICdgmjsJw25GMDH+heIniqVdZYTwn5++YFBGzzU+A5gDHPY81bWu91HauJQ+C0gIA9bbTlPcYGq1tatzwb9G1yAQE7OekqChSsqxgmjVy7gIBd+wiOa3++5yrf0Jpf8U+98yqXAhyxjvO1N4EXCAjYNiZEhuk3I+J9EfGKAV3O57FmCHu61QAsuxA4JiBgtz83bomIH0bE6wZ01fuuBiDZhcBQAQE7VGqd++WtqvlSwVObYD0l5O8JnCEgYM9AW8FH8iTWtwa8rVWwrmAwNXG9AgJ2vWN3rOW5dppHrVedxMqbBO6KiCe21309IrAcAQG7nLG4tCW51pp3YeVtrsc2NwlcquzzBEYICNgRWAvdtb/0Ktdbr9ryFdh51OqFggsdSM3anoCAXfeY5tFqrrXmmutV233dNa3r7q3WE1iZgIBd2YB1zc2j1gzWOxy1rnMAtboNAQG7vnHOo9aHT5zEyrXWXDLIO7FsBAjMJCBgZ4I/s9oh17U+2t2FZa31TGQfIzCVgICdSrJsOUOWBPLSq7xE65GyTVE6AQJDBQTsUKn59stwfTwi8jKsY9tXuiUBzw6Yb5zUTOBFAgJ22ZMirw7I9dZj4ZprrXmiyw0Dyx5HrWtUQMAud+BPhWte15rh6qh1uWOoZY0LCNhlToAM11wWOHZ9az5DIG8asBEgsGABAbu8wTm15prrrXkyy0aAwMIFBOyyBuj67sj1TUeadbeXDS5rwLSGwFUCAnY58+P9EfHZiHivcF3OoGgJgUsEBOwletN99s6IeOiK4hy5TmetJALVBARsNeqjFZ0KVw9qmX+MtIDAWQIC9iy2yT6UJ7R+FhE3Hijx2e6o9hOT1aYgAgSqCgjYqtwvquw7EfHxA024v7sza97WqZ0AgYsEBOxFfBd/OO/EetWBUr7bXQP76wHPet39+FNHbjzo/7y/rnb3+tp8jXfeKZa/Hvp83siQf35oy/Yf+7uLcRRAYO0CAnbeEfxxRLxj3iYUq/3Y7bv5lK9DT/o69o/D0+5WKzZGCi4sIGALA58o/jMR8bV5m7DK2g+F9/6f7R9551z3zIZVDvd6Gy1g5x+7fID2VyPirfM3pbkW7Afuqd/n8x9sBAYLCNjBVEV3zJDNn3zdtm0dAvtHyKd+b716HeM6aSsF7KSckxT25oj4T0TcFBH/GFliXvZ11XNjjxX32oj4Zbc2euzzx14HnnXePLKddn9+HTp/XhoR6f/niPhpt968H9aOnFc6YwTsSgduBc3O4M2rFfLX/e1YWB/68ywjn9Fge16gX8boA7o/OSiEFzhDBOwCB0WTTgpk6O4/yvHQn+0Hdh6dX3ey9PXu0B/5ZujmT4aw4J1xPAXsjPiqnl0gA3f3CHs/pPeXXNZ6NJ1Bm4Gbj7p0JUXFaSdgK2KranMC+4G8//v9AJ/7CDqPcPNRmN6CUWkqCthK0KohcECgD+AbIuLavaPp3XCeMphvcxRbby4K2HrWaiIwhUC/rtwfLfdBfOvAwt/m9uaBUhPsJmAnQFQEgYUIZOhm4PY/+fvdS+i8y63yQAnYyuCqIzCDQB71HnsGxAzNaadKAdvOWOspAQKVBQRsZXDVESDQjoCAbWes9ZQAgcoCArYyuOoIEGhHQMC2M9Z6SoBAZQEBWxlcdQQItCMgYNsZaz0lQKCygICtDK46AgTaERCw7Yy1nhIgUFlAwFYGVx0BAu0ICNh2xlpPCRCoLCBgK4OrjgCBdgQEbDtjracECFQWELCVwVVHgEA7AgK2nbHWUwIEKgsI2MrgqiNAoB0BAdvOWOspAQKVBQRsZXDVESDQjoCAbWes9ZQAgcoCArYyuOoIEGhHQMC2M9Z6SoBAZQEBWxlcdQQItCMgYNsZaz0lQKCygICtDK46AgTaERCw7Yy1nhIgUFlAwFYGVx0BAu0ICNh2xlpPCRCoLCBgK4OrjgCBdgQEbDtjracECFQWELCVwVVHgEA7AgK2nbHWUwIEKgsI2MrgqiNAoB0BAdvOWOspAQKVBQRsZXDVESDQjoCAbWes9ZQAgcoCArYyuOoIEGhHQMC2M9Z6SoBAZQEBWxlcdQQItCMgYNsZaz0lQKCygICtDK46AgTaERCw7Yy1nhIgUFlAwFYGVx0BAu0ICNh2xlpPCRCoLCBgK4OrjgCBdgQEbDtjracECFQWELCVwVVHgEA7AgK2nbHWUwIEKgsI2MrgqiNAoB0BAdvOWOspAQKVBQRsZXDVESDQjoCAbWes9ZQAgcoCArYyuOoIEGhHQMC2M9Z6SoBAZQEBWxlcdQQItCMgYNsZaz0lQKCygICtDK46AgTaERCw7Yy1nhIgUFlAwFYGVx0BAu0ICNh2xlpPCRCoLCBgK4OrjgCBdgQEbDtjracECFQWELCVwVVHgEA7AgK2nbHWUwIEKgsI2MrgqiNAoB0BAdvOWOspAQKVBQRsZXDVESDQjoCAbWes9ZQAgcoC/wPnXLEAgfmy1gAAAABJRU5ErkJggg==',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ RUN ] app\question\controller\questionanswer->putQuestion[ C:\Users\Administrator\Desktop\315\questionnaire\application\question\controller\Questionanswer.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-16T15:29:44+08:00 ] 127.0.0.1 POST localhost/index.php/?s=question/questionanswer/putQuestion
+[运行时间：0.604000s] [吞吐率：1.66req/s] [内存消耗：3,614.84kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\315\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002000s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'question',
+    1 => 'questionanswer',
+    2 => 'putQuestion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '10112',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'origin' => 'http://192.168.1.13:8080',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://192.168.1.13:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh-TW;q=0.9,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '我的',
+  'tel' => '15260032565',
+  'answers' => 
+  array (
+    0 => '生产经营所得',
+    1 => '20万-70万元（不含）人民币',
+    2 => '50-70%',
+    3 => '有，住房抵押贷款等长期定额债务',
+    4 => '100万-300万元（不含）人民币',
+    5 => '已取得金融、经济或财会等与金融产品投资相关专业学士以上学位',
+    6 => '丰富：对证券期货产品及相关风险具有丰富的知识和理解',
+    7 => '除银行活期和定期存款外，我购买过基金、保险等理财产品，但还需要进一步的指导',
+    8 => '正常',
+    9 => '6至10个',
+    10 => '股票、混合型基金、偏股型基金、股票型基金等权益类投资品种等,复杂金融产品、其它产品或服务',
+    11 => '30万元-100万元',
+    12 => '10年以上',
+    13 => '无特别要求',
+    14 => '期货,其他产品或服务',
+    15 => '大部分投资于B',
+    16 => '实现资产大幅增长，愿意承担很大的投资风险',
+    17 => '尽可能保证本金安全',
+    18 => '偿付债务',
+    19 => '41-50岁',
+    20 => '5人以上',
+    21 => '大学本科',
+    22 => '有配偶，其中一人有稳定收入的工作',
+  ),
+  'autograph' => 'data:image/png;base64,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',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004000s ]
+[ info ] [ RUN ] app\question\controller\questionanswer->putQuestion[ C:\Users\Administrator\Desktop\315\questionnaire\application\question\controller\Questionanswer.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-16T15:30:21+08:00 ] 127.0.0.1 POST localhost/index.php/?s=question/questionanswer/putQuestion
+[运行时间：0.513000s] [吞吐率：1.95req/s] [内存消耗：3,612.86kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\315\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002000s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'question',
+    1 => 'questionanswer',
+    2 => 'putQuestion',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '10112',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded;charset=UTF-8',
+  'origin' => 'http://192.168.1.13:8080',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-dest' => 'empty',
+  'referer' => 'http://192.168.1.13:8080/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh-TW;q=0.9,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '我的',
+  'tel' => '15260032565',
+  'answers' => 
+  array (
+    0 => '生产经营所得',
+    1 => '20万-70万元（不含）人民币',
+    2 => '50-70%',
+    3 => '有，住房抵押贷款等长期定额债务',
+    4 => '100万-300万元（不含）人民币',
+    5 => '已取得金融、经济或财会等与金融产品投资相关专业学士以上学位',
+    6 => '丰富：对证券期货产品及相关风险具有丰富的知识和理解',
+    7 => '除银行活期和定期存款外，我购买过基金、保险等理财产品，但还需要进一步的指导',
+    8 => '正常',
+    9 => '6至10个',
+    10 => '股票、混合型基金、偏股型基金、股票型基金等权益类投资品种等,复杂金融产品、其它产品或服务',
+    11 => '30万元-100万元',
+    12 => '10年以上',
+    13 => '无特别要求',
+    14 => '期货,其他产品或服务',
+    15 => '大部分投资于B',
+    16 => '实现资产大幅增长，愿意承担很大的投资风险',
+    17 => '尽可能保证本金安全',
+    18 => '偿付债务',
+    19 => '41-50岁',
+    20 => '5人以上',
+    21 => '大学本科',
+    22 => '有配偶，其中一人有稳定收入的工作',
+  ),
+  'autograph' => 'data:image/png;base64,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',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.008000s ]
+[ info ] [ RUN ] app\question\controller\questionanswer->putQuestion[ C:\Users\Administrator\Desktop\315\questionnaire\application\question\controller\Questionanswer.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-16T15:37:19+08:00 ] 127.0.0.1 GET localhost/public/img/20210316/1615879671.png
+[运行时间：0.088000s] [吞吐率：11.36req/s] [内存消耗：2,039.05kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.016000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\315\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002000s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => '20210316',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="88", "Google Chrome";v="88", ";Not A Brand";v="99"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://39.101.134.203:83/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh-TW;q=0.9,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-16T15:37:19+08:00 ] 127.0.0.1 GET localhost/public/img/20210316/1615879821.png
+[运行时间：0.107000s] [吞吐率：9.35req/s] [内存消耗：2,039.05kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\315\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002000s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => '20210316',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="88", "Google Chrome";v="88", ";Not A Brand";v="99"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://39.101.134.203:83/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh-TW;q=0.9,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-16T15:37:19+08:00 ] 127.0.0.1 GET localhost/public/img/20210316/1615879783.png
+[运行时间：0.118000s] [吞吐率：8.47req/s] [内存消耗：2,039.05kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\315\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002000s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => '20210316',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="88", "Google Chrome";v="88", ";Not A Brand";v="99"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://39.101.134.203:83/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh-TW;q=0.9,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-16T15:37:19+08:00 ] 127.0.0.1 GET localhost/public/img/20210316/1615875066.png
+[运行时间：0.102000s] [吞吐率：9.80req/s] [内存消耗：2,039.05kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\315\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002000s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => '20210316',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="88", "Google Chrome";v="88", ";Not A Brand";v="99"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://39.101.134.203:83/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh-TW;q=0.9,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-16T15:37:19+08:00 ] 127.0.0.1 GET localhost/public/img/20210316/1615875369.png
+[运行时间：0.105000s] [吞吐率：9.52req/s] [内存消耗：2,039.05kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\315\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.003000s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => '20210316',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="88", "Google Chrome";v="88", ";Not A Brand";v="99"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://39.101.134.203:83/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh-TW;q=0.9,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-16T15:37:19+08:00 ] 127.0.0.1 GET localhost/public/img/20210316/1615875254.png
+[运行时间：0.112000s] [吞吐率：8.93req/s] [内存消耗：2,039.05kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\315\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001000s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => '20210316',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="88", "Google Chrome";v="88", ";Not A Brand";v="99"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://39.101.134.203:83/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh-TW;q=0.9,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-16T15:46:28+08:00 ] 127.0.0.1 GET localhost/public/img/20210316/1615875369.png
+[运行时间：0.288000s] [吞吐率：3.47req/s] [内存消耗：2,040.09kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\315\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002000s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => '20210316',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="88", "Google Chrome";v="88", ";Not A Brand";v="99"',
+  'sec-ch-ua-mobile' => '?0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh-TW;q=0.9,zh;q=0.8',
+  'cookie' => 'Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1615257086,1615341799,1615518401; PHPSESSID=60a6d9742deb47c2694614fd6b487cb5; think_var=zh-cn',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-16T19:14:21+08:00 ] 127.0.0.1 GET localhost/public/img/20210316/1615875066.png
+[运行时间：0.207000s] [吞吐率：4.83req/s] [内存消耗：2,039.05kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.016000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\315\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.006000s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => '20210316',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="88", "Google Chrome";v="88", ";Not A Brand";v="99"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://39.101.134.203:83/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh-TW;q=0.9,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-16T19:14:21+08:00 ] 127.0.0.1 GET localhost/public/img/20210316/1615875369.png
+[运行时间：0.209000s] [吞吐率：4.78req/s] [内存消耗：2,039.05kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.019000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\315\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002000s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => '20210316',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="88", "Google Chrome";v="88", ";Not A Brand";v="99"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://39.101.134.203:83/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh-TW;q=0.9,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-16T19:14:21+08:00 ] 127.0.0.1 GET localhost/public/img/20210316/1615875254.png
+[运行时间：0.214000s] [吞吐率：4.67req/s] [内存消耗：2,039.05kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.014000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\315\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002000s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => '20210316',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="88", "Google Chrome";v="88", ";Not A Brand";v="99"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://39.101.134.203:83/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh-TW;q=0.9,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-16T19:14:21+08:00 ] 127.0.0.1 GET localhost/public/img/20210316/1615879821.png
+[运行时间：0.214000s] [吞吐率：4.67req/s] [内存消耗：2,039.05kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.019000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\315\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.003000s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => '20210316',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="88", "Google Chrome";v="88", ";Not A Brand";v="99"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://39.101.134.203:83/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh-TW;q=0.9,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-16T19:14:21+08:00 ] 127.0.0.1 GET localhost/public/img/20210316/1615879671.png
+[运行时间：0.232000s] [吞吐率：4.31req/s] [内存消耗：2,039.05kb] [文件加载：109]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.040000s ]
+[ info ] [ LANG ] C:\Users\Administrator\Desktop\315\questionnaire\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002000s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'img',
+    2 => '20210316',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'sec-ch-ua' => '"Chromium";v="88", "Google Chrome";v="88", ";Not A Brand";v="99"',
+  'sec-ch-ua-mobile' => '?0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'cross-site',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://39.101.134.203:83/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh-TW;q=0.9,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
