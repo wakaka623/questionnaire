@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80db67a1-e3f9-4ce2-891f-881b58ad7712" name="Default Changelist" comment="" />
+    <list default="true" id="80db67a1-e3f9-4ce2-891f-881b58ad7712" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/questionnaire.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/questionnaire.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +15,16 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\小程序\问卷调查\questionnaire\.idea" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -50,6 +63,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1pmf7yyb9pYo2BqJKNodqowmSXv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -78,6 +92,7 @@
       <workItem from="1615793027527" duration="1450000" />
       <workItem from="1615801827254" duration="282000" />
       <workItem from="1615874299654" duration="5413000" />
+      <workItem from="1616130575638" duration="715000" />
     </task>
     <servers />
   </component>
@@ -85,9 +100,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="662" y="371" key="com.intellij.ide.util.TipDialog" timestamp="1615793046067">
+    <state x="662" y="371" key="com.intellij.ide.util.TipDialog" timestamp="1616130576487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="371" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1615793046067" />
+    <state x="662" y="371" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1616130576487" />
   </component>
 </project>
